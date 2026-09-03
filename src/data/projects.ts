@@ -21,12 +21,13 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 'project-two',
-    title: 'Project Two',
+    id: 'dev-activity-dashboard',
+    title: 'Dev Activity Dashboard',
     description:
-      'Another project description. Focus on what you built and why it mattered, not just the tech stack.',
-    tags: ['Python', 'FastAPI', 'PostgreSQL'],
-    sourceUrl: 'https://github.com/Jameaa/project-two',
+      "Shows GitHub activity stats your own profile page doesn't: commit streaks, a day-of-week breakdown, and a language mix across your repos. Backend-free — calls the GitHub GraphQL API directly from the browser.",
+    tags: ['React', 'TypeScript', 'GraphQL', 'Vite'],
+    liveUrl: 'https://dev-activity-dashboard.onrender.com',
+    sourceUrl: 'https://github.com/Jameaa/Dev-Activity-Dashboard',
     featured: true,
   },
 ]
