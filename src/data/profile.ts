@@ -18,7 +18,7 @@ export const navLinks: NavLink[] = [
 ]
 
 export const socialLinks: SocialLink[] = [
-  { label: 'GitHub', href: 'https://github.com/yourusername', icon: 'github' },
+  { label: 'GitHub', href: 'https://github.com/Jameaa', icon: 'github' },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername', icon: 'linkedin' },
   { label: 'Email', href: 'mailto:you@example.com', icon: 'email' },
 ]
