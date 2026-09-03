@@ -11,13 +11,13 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 'project-one',
-    title: 'Project One',
+    id: 'price-tracker',
+    title: 'Price Tracker',
     description:
-      'A short, concrete description of what this project does and the problem it solves. Mention the impact or scale if relevant.',
-    tags: ['React', 'TypeScript', 'Node.js'],
-    liveUrl: 'https://example.com',
-    sourceUrl: 'https://github.com/Jameaa/project-one',
+      'Tracks prices on products you care about, stores price history, and sends a Discord alert when the price drops below your target. Full-stack app deployed on a free-tier stack: Postgres, a scheduled backend, and a GitHub Actions cron workflow.',
+    tags: ['React', 'TypeScript', 'Express', 'Postgres'],
+    liveUrl: 'https://price-tracker-client-nsk5.onrender.com',
+    sourceUrl: 'https://github.com/Jameaa/Price-Tracker',
     featured: true,
   },
   {
