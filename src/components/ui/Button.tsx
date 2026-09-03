@@ -11,7 +11,8 @@ export function Button({ children, variant = 'primary', className, ...props }: B
     <a
       className={cn(
         'inline-flex items-center justify-center rounded-lg px-5 py-2.5 text-sm font-medium transition-colors',
-        variant === 'primary' && 'bg-[var(--color-accent)] text-[var(--color-bg)] hover:opacity-90',
+        variant === 'primary' &&
+          'bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-teal)] text-[var(--color-bg)] hover:opacity-90',
         variant === 'secondary' &&
           'border border-[var(--color-border)] text-[var(--color-text)] hover:border-[var(--color-accent)]',
         className,

@@ -11,6 +11,11 @@
   --color-text-muted: #9199a8;
   --color-accent: #7c9dff;
   --color-accent-muted: #4a5b99;
+
+  /* Secondary accents, used sparingly for variety (skill groups, project tags, hero glow) */
+  --color-teal: #2dd4bf;
+  --color-rose: #fb7185;
+  --color-amber: #fbbf24;
 }
 
 @layer base {

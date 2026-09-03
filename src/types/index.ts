@@ -8,9 +8,12 @@ export interface Project {
   featured?: boolean
 }
 
+export type AccentColor = 'accent' | 'teal' | 'rose' | 'amber'
+
 export interface SkillGroup {
   category: string
   items: string[]
+  color: AccentColor
 }
 
 export interface NavLink {
